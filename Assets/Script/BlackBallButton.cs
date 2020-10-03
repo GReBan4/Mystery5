@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NextButton : MonoBehaviour
+public class BlackBallButton : MonoBehaviour
 {
-    public GameObject Canvas3;
-    public GameObject Canvas8;
     public GameObject Canvas11;
 
     // Start is called before the first frame update
@@ -23,11 +21,5 @@ public class NextButton : MonoBehaviour
     public void OnClick()
     {
         Canvas11.SetActive(true);
-        GameObject obj = GameObject.Find("Canvas3");
-        GameObject obj1 = GameObject.Find("BlackBall");
-        GameObject obj2 = GameObject.Find("Canvas8");
-        Destroy(obj);
-        Destroy(obj1);
-        Destroy(obj2);
     }
 }
