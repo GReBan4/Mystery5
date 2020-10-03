@@ -19,7 +19,7 @@ public class Ycamera : MonoBehaviour
         float y_mouse = Input.GetAxis("Mouse Y");
 
         Vector3 newRotation = transform.localEulerAngles;
-        newRotation.z -= y_mouse * y_sensitivity;
+        newRotation.x -= y_mouse * y_sensitivity;
         transform.localEulerAngles = newRotation;
     }
 }

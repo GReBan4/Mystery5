@@ -7,6 +7,7 @@ TagManager:
   - kabin
   - book1
   - door2
+  - door1
   layers:
   - Default
   - TransparentFX
