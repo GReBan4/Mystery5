@@ -10,6 +10,7 @@ public class Human : MonoBehaviour
     public GameObject Canvas8;
     public GameObject Canvas9;
     public GameObject Canvas12;
+    public GameObject Canvas15;
 
     // Start is called before the first frame update
     void Start()
@@ -84,6 +85,12 @@ public class Human : MonoBehaviour
                 Canvas12.SetActive(true);
             }
         }
-
+        if (other.CompareTag("bunsyo"))
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Canvas15.SetActive(true);
+            }
+        }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - door2
   - door1
   - ueki
+  - bunsyo
   layers:
   - Default
   - TransparentFX
