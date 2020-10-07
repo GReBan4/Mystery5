@@ -8,6 +8,7 @@ TagManager:
   - book1
   - door2
   - door1
+  - ueki
   layers:
   - Default
   - TransparentFX

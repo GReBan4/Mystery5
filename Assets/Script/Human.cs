@@ -9,6 +9,7 @@ public class Human : MonoBehaviour
     public GameObject Canvas5;
     public GameObject Canvas8;
     public GameObject Canvas9;
+    public GameObject Canvas12;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +75,13 @@ public class Human : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
             {
                 Canvas8.SetActive(true);
+            }
+        }
+        if (other.CompareTag("ueki"))
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Canvas12.SetActive(true);
             }
         }
 
